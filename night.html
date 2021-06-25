@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Lights</title>
+    <link rel="stylesheet" href="night.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-center">
+        <h4>Mood Lights</h4>
+            <ul id="nav-list" class="nav-list">
+                <li class="nav-item" >
+                    <a id="simple-button" href="index.html" class="nav-link">Simple</a>
+                </li>
+                <li class="nav-item">
+                    <a id="hex-button" href="hex.html" class="nav-link">Hex</a>
+                </li>
+                <li class="nav-item">
+                    <a href="reading.html" class="nav-link">Reading Lights</a>
+                </li>
+                <li class="nav-item nav-item-active">
+                    <a href="" class="nav-link">Night Reading</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Background Color : <span class="color">
+                #F1F5F8
+            </span></h2>
+            <button class="btn btn-hero" id="btn" >click me</button>
+            <button class="btn btn-hero" onclick="window.location.reload();">Refresh</button>
+            <button class="btn btn-hero" id="copyCode">Copy</button>
+        </div>
+    </main>
+    
+    <script src="night.js"></script>
+</body>
+</html>
